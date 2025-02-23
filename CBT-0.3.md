@@ -1,0 +1,35 @@
+# Closed Beta Version 0.3.0 (Goblin x Miku Update)
+- Added Astolfo Model
+- Added the enemy hitting the player if colliding 
+	- Sound will be played if Player is hit
+- Sound will play when the player dies 
+- Added a screen that is shown when the player dies
+- Added AI to enemies
+	- Will follow the player and hit on collision
+	- More frequent hits when player stays in collision hitbox
+- Added Company
+	- Consists of a floor, with 4 walls, white windows, and a ceiling with lights
+	- Enemies will spawn while the player is near this building
+- Added Teleporter to Company
+- Added Hatsune Miku
+	- Hatsune Miku will play music when nearby
+	- She can be picked up with e and set down again, functioning as a Jukebox
+		- Thus, she can also be taken into the company
+- Added a Daylight Cycle
+	- The sun will move by 1° every 2 seconds, a day will thus be 720s | 12min | 6\*2 Minutes long
+- Added Sounds for enemies dying, being hit, the cube dying, and the cube being hit
+- Improved Graphics massively
+	- Increased Shadow Resolution to 8k
+	- Added MSAA 8x (Anti-Aliasing)
+	- Decreased Shadow and Light Resolution for secondary Lights (i.e. Company)
+	- Added Cel Shader
+	- Added Outline Shader
+- Added Gun to UI
+- Added FPS Counter to UI, showing Current, Avg, Low and High FPS (might currently be inaccurate | bad)
+- Capped FPS at highest possible refresh rate of device (Monitor)
+- Added Enemy Model as Goblin with a gun
+- Added a Laser (Hitscan | Raycast) Bullet Type
+	- Leaves a tracer
+- Added EnemyVariance 
+	- Makes it so that enemies spawned in the company have a higher, randomized speed and acceleration
+- Added Crosshair (only accurate for Laser mode currently)
