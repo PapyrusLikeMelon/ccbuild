@@ -1,0 +1,28 @@
+# Closed Beta Version 0.4.0 (Serving the Map)
+- Added title screen
+    - Currently, a test scene and the map scene may be accessed.
+    - The map scene does not include enemies, only the map
+    - Can be returned to by pressing 'P'
+- Added Server
+    - Can not be currently accessed
+- Removed Help UI
+- Added ammunition
+    - Can be viewed in the left bottom corner
+    - Restored by picking up Ammunition Crates dropped by enemies
+- Added reloading
+    - Either when running out of ammunition or pressing 'R'
+    - Deducts from total ammunition count
+- Added App
+    - Shows random messages(pool of 100) with a time stamp and the user count
+    - Closed/Opened with 'C'
+    - Currently only on Map Scene
+- Added floors
+    - A new floor can be accessed after killing all enemies and walking into the elevator (white box)
+- Added Company Owners
+    - When entering a company, its "owner" will be shown with information about the company
+    - Currently a placeholder of Elon Musk and Tesla
+- Added Map Scene
+    - Accessed from Title Screen
+    - Still mostly empty, only containing the App, cubes and some houses
+- Added sound effects
+    - Reloading, Elevator spawning
